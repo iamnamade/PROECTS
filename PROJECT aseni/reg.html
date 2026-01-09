@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style/reg.css" />
+</head>
+<body>
+  <div class="home"><a href="index.html"><i class="fa-regular fa-house"></i></a> </div>
+  <div class="container">
+    <form class="box" action="#php" method="post">
+      <h1 class="title">რეგისტრაცია</h1>
+      <label>სახელი და გვარი</label>
+      <input type="text" placeholder="მაგ: Luka Xaraishvili" required />
+
+      <label>ელფოსტა</label>
+      <input type="email" placeholder="name@example.com" required />
+
+      <label>პაროლი</label>
+      <input type="password" placeholder="••••••••" minlength="6" required />
+
+      <label>გაიმეორე პაროლი</label>
+      <input type="password" placeholder="••••••••" minlength="6" required />
+
+      <div class="terms-conditions">
+        <input id="terms" type="checkbox" required />
+        <label class="terms" for="terms">ვეთანხმები წესებს და პირობებს</label>
+      </div>
+
+      <button type="submit">Create account</button>
+
+      <p class="log">
+        უკვე გაქვს ანგარიში? <a href="log.html">შესვლა</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>
